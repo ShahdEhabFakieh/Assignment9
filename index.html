@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bookmark</title>
+  <link rel="icon" type="image/x-icon" href="download.jpg">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  
+</head>
+
+<body>
+    <div id="Home">
+
+    <div class="container justify-ceontent-center align-items-center">
+        <h1>Bookmarker</h1>
+
+        <hr>
+        
+        <h2><span class="Bookmarklogo1"><i class="fa-solid fa-bookmark"></i></span> Bookmark your favorite sites <span class="Bookmarklogo1"><i class="fa-solid fa-bookmark"></i></span></h2>
+
+
+     <main class="w-100 mx-auto">
+        <section>
+            <div class="form">
+                <i class="fa-solid fa-book-bookmark ms-4 pb-3" style="color: #000000;"></i><label class="text-des pt-4 ms-2" for="Site Name">Site Name</label>
+                <input type="text" id="BookmarkName" class=" f-box form-control w-70 ms-4" placeholder="Bookmark Name" />
+
+            </div>
+            <div class="form">
+                <i class="fa-solid fa-link ms-4 pb-3" style="color: #000000;"></i><label class="text-des pt-4 ms-2" for="Site Name">Site URL</label>
+                <input type="text" id="SiteURL" class=" f-box form-control w-70 ms-4" placeholder="Website URL" />
+
+            </div>
+            <!--<button class="btn btn-primary w-20" id="addBtn">Submit</button>-->
+            <div class="btn-container">
+            <button type="submit" class=" btn-des btn" id="addBtn">Submit</button>
+            </div>
+
+            <hr class="hr-des mt-3">
+
+            <div class="table-content mt-4 text-center bg-light">
+                <table class="table">
+                   <thead>
+                      <tr>
+                         <th>Index</th>
+                         <th>Website Name</th>
+                         <th>Visit</th>
+                         <th>Delete</th>
+                      </tr>
+                   </thead>
+                   <tbody class="table-group-divider" id="tableData">
+                     
+                   </tbody>
+                </table>
+             </div>
+        </section>
+     </main>
+     
+    </div>
+</div>
+
+
+
+    <script src="./js/main.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
